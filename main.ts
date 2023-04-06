@@ -9,4 +9,12 @@ namespace Radio {
     export function sendString(text: string) {
         menssageS = text
     }
+    //% block='resived a number?'
+    export function onResiveNumber() {
+        if(menssageN != null){
+            return true
+        }else{
+            return false
+        }
+    }
 }
